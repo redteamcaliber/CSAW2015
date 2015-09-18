@@ -3,10 +3,10 @@
 ## Web 1
 
 1. Load Burp
-2. Password you enter is (randomly?) encoded
-3. Always get unauthorised
-4. Delete password in burp
-5. forward request
+2. Password you enter is encoded somehow
+3. You get directed to Unauthorised page
+4. Just delete password in burp
+5. Forward request
 6. Profit
 
 ## Trivia 4
