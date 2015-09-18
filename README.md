@@ -1,13 +1,13 @@
 # CSAW 2015
 
-## Challenge X
+## Trivia 4
 
-- "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+- This vulnerability occurs when the incorrect timing/sequence of events may cause a bug.
 
-Steps to our solution:
+Solution:
 
-1. "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-2. "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+1. Race Condition
+
 
 ## Challenge X
 
