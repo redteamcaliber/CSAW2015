@@ -1,101 +1,67 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <title>CSAW2015 by LaurenceStokes</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <title>CSAW2015 by LaurenceStokes</title>
   </head>
-
   <body>
-    <div id="container">
-      <div class="inner">
-
-        <header>
-          <h1>CSAW2015</h1>
-          <h2>Solutions to CSAW 2015</h2>
-        </header>
-
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/LaurenceStokes/CSAW2015/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
-          <a href="https://github.com/LaurenceStokes/CSAW2015/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
-          <a href="https://github.com/LaurenceStokes/CSAW2015" id="view-on-github" class="button"><span>View on GitHub</span></a>
-        </section>
-
-        <hr>
-
-        <section id="main_content">
-          <h1>
+    <div class="wrapper">
+      <header>
+        <h1>CSAW2015</h1>
+        <p>Solutions to CSAW 2015</p>
+        <p class="view"><a href="https://github.com/LaurenceStokes/CSAW2015">View the Project on GitHub <small>LaurenceStokes/CSAW2015</small></a></p>
+        <ul>
+          <li><a href="https://github.com/LaurenceStokes/CSAW2015/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/LaurenceStokes/CSAW2015/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/LaurenceStokes/CSAW2015">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
 <a id="csaw-2015" class="anchor" href="#csaw-2015" aria-hidden="true"><span class="octicon octicon-link"></span></a>CSAW 2015</h1>
+
+<h2>
+<a id="web-1" class="anchor" href="#web-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Web 1</h2>
+
+<ol>
+<li>Load Burp</li>
+<li>Password you enter is (randomly?) encoded</li>
+<li>Always get unauthorised</li>
+<li>Delete password in burp</li>
+<li>forward request</li>
+<li>Profit</li>
+</ol>
 
 <h2>
 <a id="trivia-4" class="anchor" href="#trivia-4" aria-hidden="true"><span class="octicon octicon-link"></span></a>Trivia 4</h2>
 
-<ul>
-<li>This vulnerability occurs when the incorrect timing/sequence of events may cause a bug.</li>
-</ul>
+<p>"This vulnerability occurs when the incorrect timing/sequence of events may cause a bug."</p>
 
-<p>Solution:</p>
-
-<ol>
-<li>Race Condition</li>
-</ol>
+<p>-Race Condition</p>
 
 <h2>
 <a id="trivia-5" class="anchor" href="#trivia-5" aria-hidden="true"><span class="octicon octicon-link"></span></a>Trivia 5</h2>
 
-<ul>
-<li>"On Windows, loading a library and having it's code run in another process is called"</li>
-</ul>
+<p>"On Windows, loading a library and having it's code run in another process is called ?"</p>
 
-<p>Solution:</p>
-
-<ol>
-<li>DLL Injection</li>
-</ol>
-
-<h2>
-<a id="challenge-x" class="anchor" href="#challenge-x" aria-hidden="true"><span class="octicon octicon-link"></span></a>Challenge X</h2>
-
-<ul>
-<li>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</li>
-</ul>
-
-<p>Steps to our solution:</p>
-
-<ol>
-<li>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</li>
-<li>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</li>
-</ol>
-
-<h2>
-<a id="challenge-x-1" class="anchor" href="#challenge-x-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Challenge X</h2>
-
-<ul>
-<li>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</li>
-</ul>
-
-<p>Steps to our solution:</p>
-
-<ol>
-<li>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</li>
-<li>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</li>
-</ol>
-        </section>
-
-        <footer>
-          CSAW2015 is maintained by <a href="https://github.com/LaurenceStokes">LaurenceStokes</a><br>
-          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
-        </footer>
-
-        
-      </div>
+<p>-DLL Injection</p>
+      </section>
     </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/LaurenceStokes">LaurenceStokes</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
   </body>
 </html>
